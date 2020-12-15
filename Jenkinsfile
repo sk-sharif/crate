@@ -1,5 +1,5 @@
 pipeline {
-  agent {
+  agent any
     stages {
       stage('directing to code directory') {
         steps {
@@ -20,7 +20,6 @@ pipeline {
           //sh 'npm start'
         //}
       //}
-      
-    }
+   
   }
 }

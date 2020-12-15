@@ -8,18 +8,19 @@ pipeline {
         }
       }
     
-      stage('directing to web directory') {
-        steps {
-          sh 'cd web'
-          sh 'npm install'
-        }
-      }
+      //stage('directing to web directory') {
+        //steps {
+          //sh 'cd web'
+          //sh 'npm install'
+        //}
+      //}
     
-      stage('running the application') {
-        steps {
-          sh 'npm start'
-        }
-      }
+      //stage('running the application') {
+        //steps {
+          //sh 'npm start'
+        //}
+      //}
+      
     }
   }
 }

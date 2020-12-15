@@ -5,6 +5,7 @@ pipeline {
         steps {
           sh 'cd code'
           echo 'Entered to code Directory'
+          sh 'pwd'
           sh 'cd web'
           echo 'Entered to web Directory'
           sh 'npm install'

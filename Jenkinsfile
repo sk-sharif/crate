@@ -4,6 +4,7 @@ pipeline {
       stage('directing to code directory') {
         steps {
           sh 'cd code'
+          echo 'Entered to code Directory'
         }
       }
     

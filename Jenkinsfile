@@ -3,6 +3,7 @@ pipeline {
     stages {
       stage('directing to code directory') {
         steps {
+          sh 'pwd'
           sh 'cd code'
           echo 'Entered to code Directory'
           sh 'pwd'
